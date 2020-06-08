@@ -5,3 +5,12 @@ var num = numbers.map(calculate);
 function calculate(number) {
   alert ( number + 1);
 }
+
+/*Create an array of words. Use .map() to return an array of the same words in all uppercase.*/
+
+var names = ["beth", "mary", "joel", "luka","home"]
+var uppercase = names.map(nameUpper);
+
+function nameUpper(namecase) {
+  alert(namecase.toUpperCase());
+}
